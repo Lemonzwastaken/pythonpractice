@@ -1,2 +1,5 @@
 # pythonpractice
-Practice code that ive written while learning python
+Practice code that I've written while learning Python
+  
+  
+Day 1: Hangman game
