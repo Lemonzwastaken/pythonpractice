@@ -1,2 +1,9 @@
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-print(print(alphabet[26%26]))
+programming = {
+    "Bug" : "An error in the code",
+    "Function" : "A function that is performed",
+    "Loop" : "The action of doing something over and over again"
+}
+
+programming["Hello"] = "Hello"
+
+print(programming)
