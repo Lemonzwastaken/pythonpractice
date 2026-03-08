@@ -1,9 +1,6 @@
-programming = {
-    "Bug" : "An error in the code",
-    "Function" : "A function that is performed",
-    "Loop" : "The action of doing something over and over again"
-}
+def func():
+    print("Ts works")
 
-programming["Hello"] = "Hello"
+variable = func
 
-print(programming)
+variable()
