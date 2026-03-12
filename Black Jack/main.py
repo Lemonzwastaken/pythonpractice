@@ -17,8 +17,6 @@ def deal_cards(card_list):
     else:   #if no ace
         card_list.append(card)
 
-
-jwunqwnkniksinqfnsknikmrkijhieh
 def play_game():
 
     
