@@ -4,6 +4,8 @@ import time
 from art import *
 cards = [11,2,3,4,5,6,7,8,9,10,10,10,10]
 
+plays = 1
+
 def deal_cards(card_list):
     """Deals a random card to the player and adds it to their total"""
 
@@ -19,10 +21,10 @@ def deal_cards(card_list):
 
 def play_game():
 
+    global plays
     
 
     game_running = True
-
     player_cards = []
     computer_cards = []
 
@@ -35,12 +37,15 @@ def play_game():
 
     #GAME LOOP
     while game_running:
-        print(f"Computer's first card = {computer_cards}")
+        print("\n"*2)
+        print(f"Game Number: {plays}\n")
+        print(f"Computer's first card = {computer_cards[0]}")
         print(f"Your cards are: {player_cards}")
         print(f"Player_score = {sum(player_cards)}")
 
         choice = input("Do you wanna deal another set of cards('y' for yes, 'n' for no): \n").lower()
         if choice == "y":
+
             print("Dealing cards.....please wait")
             time.sleep(5)
             if sum(computer_cards) < 17:
@@ -51,15 +56,14 @@ def play_game():
                 game_running = False
 
         elif choice == "n":
-            if sum(computer_cards) < 16:
+            while sum(computer_cards) < 17:
                 deal_cards(card_list=computer_cards)
+            
+            game_running = False
 
-            else:
-                game_running = False
-
-
+    plays += 1
     print("FINAL EVALUATION:")
-    print(f"Computer's first card = {computer_cards}")
+    print(f"Computer's cards = {computer_cards}")
     print(f"Your cards are: {player_cards}")
     print(f"Player_score = {sum(player_cards)}")
 
