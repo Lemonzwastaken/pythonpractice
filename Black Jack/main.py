@@ -38,7 +38,7 @@ def play_game():
     #GAME LOOP
     while game_running:
         print("\n"*2)
-        print(f"Game Number: {plays}\n")
+        print(f"Game Numbers: {plays}\n")
         print(f"Computer's first card = {computer_cards[0]}")
         print(f"Your cards are: {player_cards}")
         print(f"Player_score = {sum(player_cards)}")
