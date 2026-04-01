@@ -1,6 +1,6 @@
 # pythonpractice
 
-Practice code written while learning Python — covering classic beginner to intermediate projects.
+Practice code written while learning Python, covering classic beginner to intermediate projects.
 
 ## Projects
 
@@ -16,7 +16,7 @@ Practice code written while learning Python — covering classic beginner to int
 | **Quiz Game** | Multiple-choice quiz with a scoring system |
 | **Silent Auction** | Simulates a blind auction where the highest bidder wins |
 | **Small Projects** | Collection of miscellaneous mini scripts and experiments |
-| **Snake Game** | Classic Snake game built with Turtle graphics (testing branch) |
+| **Snake Game** | Classic Snake game built with Turtle graphics (testing area) |
 | **Turtle Crossing** | Frogger-style road crossing game using Turtle graphics |
 | **Turtle Race** | Racing simulation with multiple turtles using Turtle graphics |
 | **TurtleFun** | Turtle graphics experiments and visual patterns |
@@ -29,7 +29,7 @@ Practice code written while learning Python — covering classic beginner to int
 ```
 2. Navigate to any project folder and run its `main.py`:
 ```bash
-   cd "Caesar Cipher"
+   cd "Caesar Cipher."
    python main.py
 ```
 
@@ -37,6 +37,7 @@ Practice code written while learning Python — covering classic beginner to int
 
 - Python 3.x
 - Some projects use the built-in `turtle` module (no installation needed)
+- Some projects use the Pandas library (pip install pandas to run)
 
 ## Notes
 
